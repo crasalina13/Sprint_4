@@ -2,11 +2,11 @@ package models;
 
 public class User {
 
-    String firstNameField;
-    String lastNameField;
-    String addressField;
-    String metroField;
-    String phoneField;
+    private final String firstNameField;
+    private final String lastNameField;
+    private final String addressField;
+    private final String metroField;
+    private final String phoneField;
 
     public User(String firstNameField, String lastNameField, String metroField, String addressField, String phoneField) {
         this.firstNameField = firstNameField;
